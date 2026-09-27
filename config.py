@@ -18,9 +18,9 @@ max_lines_per_channel = 8
 # 每个 URL 都是一个 IPTV 直播源文件（支持 m3u 或 txt 格式）
 # main.py 会依次请求这些地址，提取频道名和播放地址
 # 注：被注释掉的源暂时停用，可取消注释启用
-source_urls = [
+source_urls = http://192.168.2.2:3000/live.m3u
     
-]
+
 
 # ── 酒店源 ────────────────────────────────────────────
 # hotel_api   : 酒店源 API 地址
